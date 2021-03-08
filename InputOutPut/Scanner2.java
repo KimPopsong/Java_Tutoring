@@ -3,7 +3,7 @@ package InputOutPut;
 import java.util.Scanner;
 import java.util.*;
 
-class ScanTest {
+class Scanner2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); //Ctrl + Shift + Enter
 
