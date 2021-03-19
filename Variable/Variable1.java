@@ -9,7 +9,9 @@ public class Variable1 {
         c = 2;  // 선언 후 나중에 초기화 가능
 
         //System.out.println(d);  // 선언 후 초기화하지 않으면 사용 불가
-
+        
+        d = b + c;
+        
         char e;  // int는 정수형, char은 문자형
         char f;
 
@@ -17,7 +19,8 @@ public class Variable1 {
         //f = 'HI';  // 두 개, 또는 문자열을 입력받을 시 에러
 
         System.out.println(a);  // 변수 하나만 출력하거나
-        System.out.println(a + b + c);  // 변수의 합 출력가능
+        System.out.println(a + b + c);  // 변수의 합 출력 가능
+        System.out.println(d);  // b와 c를 더한 d 출력
         System.out.println(a + " " + b + " " + c);
     }
 }
