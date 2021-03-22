@@ -4,20 +4,33 @@ public class Book2 {
     String title;
     String author;
 
-    public Book2(String t) { // 생성자
-        title = t;
-        author = "작자미상";
+    void show() {
+        System.out.println(title + " " + author);
     }
 
-    public Book2(String t, String a) { // 생성자
-        title = t;
-        author = a;
+    public Book2() {
+        this("", "");
+        System.out.println("Constructor.Book 생성자 끝");
+    }
+
+    public Book2(String title) {
+        this(title, "작자미상");
+        System.out.println("Constructor.Book(title) 생성자 호출");
+    }
+
+    public Book2(String title, String author) {
+        this.title = title;
+        this.author = author;
+        System.out.println("Constructor.Book(title, author) 생성자 호출");
     }
 
     public static void main(String [] args) {
         Book2 littlePrince = new Book2("어린왕자", "생텍쥐페리");
         Book2 loveStory = new Book2("춘향전");
-        System.out.println(littlePrince.title + " " + littlePrince.author);
-        System.out.println(loveStory.title + " " + loveStory.author);
+        Book2 bible = new Book2();
+
+        littlePrince.show();
+        loveStory.show();
+        bible.show();
     }
 }
