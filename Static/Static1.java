@@ -15,6 +15,7 @@ public class Static1 {
 
         st1.Print();
         a += 1;
+        Static1.a += 1;  // 객체를 생성하지않고 사용 가능
         st1.b += 1;
         st2.Print();
     }
