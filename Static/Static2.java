@@ -1,17 +1,18 @@
 package Static;
 
-class StaticSample{
+class StaticSample {
     public int n;
-    public void g(){
+    public static int m;
+
+    public void g() {
         m = 20;
     }
 
-    public void h(){
+    public void h() {
         m = 30;
     }
 
-    public static int m;
-    public static void f(){
+    public static void f() {
         m = 5;
     }
 }
@@ -27,6 +28,10 @@ public class Static2 {
         s2.n = 8;
         s2.h();
         StaticSample.f();
+        
+        System.out.println(s1.n);
+        System.out.println(s2.n);
         System.out.println(s1.m);
+        System.out.println(s2.m);
     }
 }
