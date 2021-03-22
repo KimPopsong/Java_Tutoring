@@ -10,18 +10,18 @@ public class Book2 {
 
     public Book2() {
         this("", "");
-        System.out.println("Constructor.Book 생성자 끝");
+        System.out.println("Book 생성자 끝");
     }
 
     public Book2(String title) {
         this(title, "작자미상");
-        System.out.println("Constructor.Book(title) 생성자 호출");
+        System.out.println("Book(title) 생성자 호출");
     }
 
     public Book2(String title, String author) {
         this.title = title;
         this.author = author;
-        System.out.println("Constructor.Book(title, author) 생성자 호출");
+        System.out.println("Book(title, author) 생성자 호출");
     }
 
     public static void main(String [] args) {
