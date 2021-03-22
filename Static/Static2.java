@@ -28,10 +28,11 @@ public class Static2 {
         s2.n = 8;
         s2.h();
         StaticSample.f();
-        
+
         System.out.println(s1.n);
         System.out.println(s2.n);
         System.out.println(s1.m);
         System.out.println(s2.m);
+        System.out.println(StaticSample.m);
     }
 }
