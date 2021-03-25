@@ -1,4 +1,4 @@
-package InputOutPut;
+package InputOutput;
 
 public class Print1 {
     public static void main(String[] args) {  // psvm + tab
