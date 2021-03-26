@@ -1,19 +1,6 @@
 package Class;
 
 class makeClass {
-    public static void main(String[] args) {
-        Book a = new Book();
-        Book b = new Book();
-        Book c = new Book("c");
-
-        a.setBook("book1");
-        b.setBook("book2");
-
-        a.PlusCount();
-        b.getCount();
-        System.out.println(c.getBook());
-    }
-
     public static class Book{
         private String name;
 
@@ -42,5 +29,18 @@ class makeClass {
         public void getCount() {
             System.out.println(this.name + "'s count : " + count);
         }
+    }
+
+    public static void main(String[] args) {
+        Book a = new Book();
+        Book b = new Book();
+        Book c = new Book("c");
+
+        a.setBook("book1");
+        b.setBook("book2");
+
+        a.PlusCount();
+        b.getCount();
+        System.out.println(c.getBook());
     }
 }

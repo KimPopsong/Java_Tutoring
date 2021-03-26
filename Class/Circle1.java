@@ -19,8 +19,7 @@ public class Circle1 {
     }
 
     public static void main(String[] args) {
-        Circle1 pizza;
-        pizza = new Circle1(10, "자바피자");  // Circle 객체 생성
+        Circle1 pizza = new Circle1(10, "자바피자");  // Circle 객체 생성
 
         pizza.radius = 10;  // 피자의 반지름을 10으로 설정
         pizza.name = "자바피자";  // 피자의 이름 설정

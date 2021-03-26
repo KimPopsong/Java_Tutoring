@@ -1,18 +1,21 @@
 package Class;
 
-public class Circle2
-{
+public class Circle2 {
     int radius;
     String name;
 
-    public Circle2() { // 매개 변수 없는 생성자
-        radius = 1; name = ""; // radius의 초기값은 1
+    public Circle2() {  // 매개 변수 없는 생성자
+        radius = 1;  // radius의 초기값은 1
+        name = "";
     }
+
     public Circle2(int r, String n) { // 매개 변수를 가진 생성자
-        radius = r; name = n;
+        radius = r;
+        name = n;
     }
+
     public double getArea() {
-        return 3.14*radius*radius;
+        return 3.14 * radius * radius;
     }
 
     public static void main(String[] args)

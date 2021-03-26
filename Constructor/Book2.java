@@ -9,7 +9,7 @@ public class Book2 {
     }
 
     public Book2() {
-        this("", "");
+        this("");
         System.out.println("Book 생성자 끝");
     }
 
