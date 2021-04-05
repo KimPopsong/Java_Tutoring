@@ -38,7 +38,7 @@ public class Inheritance6 {
         A2 a2 = new A2(2);
         System.out.println();
 
-        B2 b2 = new B2(2);
+        B2 b2 = new B2();
         System.out.println();
 
         C2 c2 = new C2(2);
