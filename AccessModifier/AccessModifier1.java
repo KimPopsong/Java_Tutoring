@@ -1,6 +1,14 @@
 package AccessModifier;
 
 class AmSample1{
+    /**
+     *              같은 패키지의 클래스  /  다른 패키지의 클래스  /  접근 가능 영역
+     * public    :         O                     X              모든 클래스
+     * protected :         O                     X              동일 패키지와 자식 클래스
+     * default   :         O                     X              동일 패키지
+     * private   :         X                     X              동일 클래스
+     */
+
     public int d = 3;
     protected int e = 4;
     private int f = 5;

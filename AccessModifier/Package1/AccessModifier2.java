@@ -4,7 +4,7 @@ public class AccessModifier2 {
     public int a = 1;
     protected int b = 2;
     private int c = 3;
-    int d = 4;  // 접근 지정자 표시를 하지 않으면 private
+    int d = 4;  // 접근 지정자 표시를 하지 않으면 default
 
     public int getB() {
         return b;
