@@ -1,9 +1,9 @@
 package GetterSetter;
 
 public class Setter1 {
-    public int a;
-    public int b;
-    public int c;
+    private int a;
+    private int b;
+    private int c;
 
     public void setA(int a) {
         this.a = a;
