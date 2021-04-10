@@ -2,9 +2,10 @@ package GetterSetter;
 
 import java.util.Scanner;
 
-public class GetterSetter {
+class GSsample{
     private int a;
-    private int b;
+    private String b;
+    private boolean c;
 
     public int getA() {
         return a;
@@ -14,22 +15,37 @@ public class GetterSetter {
         this.a = a;
     }
 
-    public int getB() {
+    public String getB() {
         return b;
     }
 
-    public void setB(int b) {
+    public void setB(String b) {
         this.b = b;
     }
 
+    public boolean isC() {
+        return c;
+    }
+
+    public void setC(boolean c) {
+        this.c = c;
+    }
+}
+
+public class GetterSetter {
     public static void main(String[] args) {
-        GetterSetter getterSetter = new GetterSetter();
         Scanner sc = new Scanner(System.in);
 
-        getterSetter.setA(1);
-        getterSetter.setB(sc.nextInt());
+        GSsample gSsample = new GSsample();
 
-        System.out.println(getterSetter.getA());
-        System.out.println(getterSetter.getB());
+        gSsample.setA(1);
+        gSsample.setB("Hello World!");
+        gSsample.setC(true);
+
+        System.out.println(gSsample.getA());
+        System.out.println(gSsample.getB());
+        System.out.println(gSsample.isC());
+
+        sc.close();
     }
 }
