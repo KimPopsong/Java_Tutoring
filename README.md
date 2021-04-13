@@ -17,9 +17,9 @@ Interface
 Inheritance  
 Castring  
 
-Plugins For IntelliJ IDEA
-
-CodeGlance
-Key Promoter X
-Lombok
-Rainbow Brackets
+Plugins For IntelliJ IDEA  
+  
+CodeGlance  
+Key Promoter X  
+Lombok  
+Rainbow Brackets  
