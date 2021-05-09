@@ -17,7 +17,7 @@ class Student1 extends Person1{  // 부모클래스 -> 슈퍼클래스, student�
     }
 }
 
-public class Downcastring1 {
+public class Downcasting1 {
     public static void main(String[] args) {
         Person1 person1 = new Student1("Park");  // Upcasting
         person1.age = 100;
