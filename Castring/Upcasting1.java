@@ -1,18 +1,18 @@
 package Castring;
 
-class Person{
+class Person {
     String name;
     int age;
 
-    public Person(String name){
+    public Person(String name) {
         this.name = name;
     }
 }
 
-class Student extends Person{
+class Student extends Person {
     String grade;
 
-    public Student(String name){
+    public Student(String name) {
         super(name);
     }
 }

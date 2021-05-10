@@ -2,24 +2,23 @@ package Constructor;
 
 import java.util.Scanner;
 
-public class Rectangle1{
+public class Rectangle1 {
     int width;
     int height;
 
-    public Rectangle1() {}  // 기본 생성자
+    public Rectangle1() {
+    }  // 기본 생성자
 
-    public Rectangle1(int w, int h){  // 정수 값 두개를 받아 width와 height에 할당해주는 생성자
+    public Rectangle1(int w, int h) {  // 정수 값 두개를 받아 width와 height에 할당해주는 생성자
         this.width = w;
         height = h;
     }
 
-    public int getArea()
-    {
+    public int getArea() {
         return width * height;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         Rectangle1 textbook = new Rectangle1();  // textbook 객체 생성

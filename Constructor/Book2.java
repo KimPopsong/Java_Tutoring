@@ -24,7 +24,7 @@ public class Book2 {
         System.out.println("Book(title, author) 생성자 호출");
     }
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         Book2 littlePrince = new Book2("어린왕자", "생텍쥐페리");
         Book2 loveStory = new Book2("춘향전");
         Book2 bible = new Book2();

@@ -1,7 +1,7 @@
 package Inheritance;
 
 class A {
-    public void print(){
+    public void print() {
         System.out.println("Hello A!");
     }
 
@@ -11,7 +11,7 @@ class A {
 }
 
 class B extends A {
-    public void print(){
+    public void print() {
         System.out.println("Hello B!");
     }
 
@@ -21,11 +21,11 @@ class B extends A {
 }
 
 class C extends B {
-    public void print(){
+    public void print() {
         System.out.println("Hello C!");
     }
 
-    public C(){
+    public C() {
         // super();  // 생략해도 무관
         System.out.println("Constructor C Operated");
     }

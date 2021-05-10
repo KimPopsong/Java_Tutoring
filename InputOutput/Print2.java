@@ -10,6 +10,6 @@ public class Print2 {
         System.out.println(n);
         System.out.println(a);
 
-        System.out.println(a + b + " "+ n);
+        System.out.println(a + b + " " + n);
     }
 }

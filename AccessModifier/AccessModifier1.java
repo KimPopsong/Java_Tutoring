@@ -1,6 +1,6 @@
 package AccessModifier;
 
-class AmSample1{
+class AmSample1 {
     /**
      *              같은 패키지의 클래스  /  다른 패키지의 클래스  /  접근 가능 영역
      * public    :         O                     X              모든 클래스

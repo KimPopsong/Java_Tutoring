@@ -1,7 +1,7 @@
 package Final;
 
 final public class Final1 {  // 상속 불가
-    final public void Print(){  // 메소드 오버라이딩 불가
+    final public void Print() {  // 메소드 오버라이딩 불가
         System.out.println("Hello World!");
     }
 

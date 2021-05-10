@@ -1,11 +1,11 @@
 package Method;
 
 public class Method1 {
-    public static int Sum(int a, int b){
+    public static int Sum(int a, int b) {
         return a + b;
     }
 
-    public static String Sum(String a, String b){
+    public static String Sum(String a, String b) {
         return a + b;
     }
 

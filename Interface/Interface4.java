@@ -4,16 +4,19 @@ interface PhoneInterface {
     int BUTTONS = 20; // 상수 필드 선언
 
     void sendCall();
+
     void receiveCall();
 }
 
 interface MobilePhoneInterface extends PhoneInterface {
     void sendSMS();
+
     void receiveSMS();
 }
 
 interface MP3Interface { // 인터페이스 작성
     public void play();
+
     public void stop();
 }
 

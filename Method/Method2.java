@@ -3,11 +3,11 @@ package Method;
 public class Method2 {
     int num = 5;
 
-    public static void Plus(int a){  // call by value
+    public static void Plus(int a) {  // call by value
         a++;
     }
 
-    public static void Plus(Method2 a){  // call by reference
+    public static void Plus(Method2 a) {  // call by reference
         a.num++;
     }
 

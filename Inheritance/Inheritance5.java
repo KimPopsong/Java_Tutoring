@@ -21,11 +21,11 @@ class B1 extends A1 {
 }
 
 class C1 extends B1 {
-    public C1(){
+    public C1() {
         System.out.println("Constructor C Operated");
     }
 
-    public C1(int x){
+    public C1(int x) {
         System.out.println("Constructor C with Parameter Operated");
     }
 }

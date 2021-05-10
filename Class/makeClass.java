@@ -1,16 +1,16 @@
 package Class;
 
 class makeClass {
-    public static class Book{
+    public static class Book {
         private String name;
 
         public static int count = 0;
 
-        public Book(){
+        public Book() {
             System.out.println("BOOK() Called");
         }
 
-        public Book(String name){
+        public Book(String name) {
             this.name = name;
         }
 
@@ -22,7 +22,7 @@ class makeClass {
             this.name = book;
         }
 
-        public void PlusCount(){
+        public void PlusCount() {
             count += 1;
         }
 

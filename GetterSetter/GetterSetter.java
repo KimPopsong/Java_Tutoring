@@ -2,7 +2,7 @@ package GetterSetter;
 
 import java.util.Scanner;
 
-class GSsample{
+class GSsample {
     private int a;
     private String b;
     private boolean c;
