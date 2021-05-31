@@ -23,3 +23,4 @@ CodeGlance
 Key Promoter X  
 Lombok  
 Rainbow Brackets  
+Atom Material Icons
