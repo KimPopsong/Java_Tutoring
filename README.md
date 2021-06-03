@@ -15,7 +15,7 @@ AccessModifier
 Abstract  
 Interface  
 Inheritance  
-Castring  
+Casting  
 
 Plugins For IntelliJ IDEA  
   
